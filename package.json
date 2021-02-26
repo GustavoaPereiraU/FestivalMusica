@@ -1,0 +1,26 @@
+{
+  "name": "festivalmusica_inicio",
+  "version": "1.0.0",
+  "description": "Aprendiendo SASS y Gulp",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GustavoaPereiraU/FestivalMusica.git"
+  },
+  "keywords": [
+    "SASS",
+    "Gulp",
+    "y",
+    "Web",
+    "Design"
+  ],
+  "author": "Gustavo Pereira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GustavoaPereiraU/FestivalMusica/issues"
+  },
+  "homepage": "https://github.com/GustavoaPereiraU/FestivalMusica#readme"
+}
