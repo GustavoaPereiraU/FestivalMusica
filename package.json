@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/GustavoaPereiraU/FestivalMusica/issues"
   },
-  "homepage": "https://github.com/GustavoaPereiraU/FestivalMusica#readme"
+  "homepage": "https://github.com/GustavoaPereiraU/FestivalMusica#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
 }
