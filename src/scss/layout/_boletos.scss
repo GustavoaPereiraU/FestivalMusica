@@ -1,0 +1,48 @@
+.boletos{
+    background-color: $verde;
+    margin-top: $separacion;
+    h3{
+        color: $blanco;
+        text-align: center;
+        padding: $separacion;
+    }
+}
+.contenido__boletos{
+    @include grid(2, $separacion / 2);
+    gap: $separacion;
+    p{
+        color: $blanco;
+        font-size: 4rem;
+        text-align: center;
+    }
+    ul{
+        padding: 0;
+        list-style: none;
+        text-align: left;
+        font-size: 1.8rem;
+        background-color: $blanco;
+    }
+
+}
+.plan{
+    li{
+        border-bottom: solid 1px #e1e1e1;
+        padding: $separacion / 4;
+
+        &:first-child{
+            background-color: $rosa;
+            padding: $separacion / 4;
+            text-align: center;
+            color: $blanco;
+            font-size: 2rem;
+        }
+
+        &:last-child{
+            background-color: $morado;
+            color: $blanco;
+            text-align: center;
+            font-size: 3rem;
+        }
+    }
+
+}

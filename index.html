@@ -25,7 +25,7 @@
             <div class="contenido-video contenedor">
                 <h2>
                     Rock & EDM Festival
-                    <span>Julio 2021, Guadalajara, México</span>
+                    <span>Julio 2021, Medellín, Colombia.</span>
                 </h2>
             </div>
         </div>
@@ -46,7 +46,7 @@
                 Rock & EDM Festival
             </h2>
             
-            <p class="informacion-evento__fecha">Julio 2021, Guadalajara, México</p>
+            <p class="informacion-evento__fecha">Julio 2021, Medellín, Colombia.</p>
            
          
             <p class="informacion-evento__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio alias quam ea qui laboriosam, in voluptatibus nemo, odit quo error reprehenderit accusamus nam, quidem quos autem omnis rerum ipsa. Nostrum!</p>
@@ -54,36 +54,42 @@
         </div> 
     </div>
 
-    <section class="lineup">
+    <section class="lineup ">
+        
         <h3>Line Up</h3>
-
         <p class="lineup__dia">Viernes 21</p>
-            <div class="lineup__calendario">
-                <p>Ecenario Rock</p>
-                    <ul>
-                        <li> 24:00 | <span>Metallica</span> </li>
-                        <li> 22:00 | <span>PearlJam</span> </li>
-                        <li> 20:00 | <span>Korn</span> </li>
-                        <li> 19:00 | <span>Muse</span> </li>
-                        <li> 18:00 | <span>Breaking Benjamin</span> </li>
-                        <li> 17:00 | <span>30 Seconds To Mars</span> </li>
-                    </ul>
 
-                <p>Ecenario EDM</p>
-                    <ul>
-                        <li> 24:00 | <span>Deadmau5</span> </li>
-                        <li> 22:00 | <span>Tiësto</span> </li>
-                        <li> 20:00 | <span>Dash Berlin</span> </li>
-                        <li> 19:00 | <span>Hardwell</span> </li>
-                        <li> 18:00 | <span>Fedde Legrand</span> </li>
-                        <li> 17:00 | <span>Audien</span> </li>
-                    </ul>
+        <div class="lineup__ecenarios contenedor">
+            <div class="ecenario__rock rock bg-amarillo">
+                <p class="ecenario__nombre">Ecenario Rock</p>
+                <ul class= 'ecenario__calendario'>
+                    <li> 24:00 | <span>Metallica</span> </li>
+                    <li> 22:00 | <span>PearlJam</span> </li>
+                    <li> 20:00 | <span>Korn</span> </li>
+                    <li> 19:00 | <span>Muse</span> </li>
+                    <li> 18:00 | <span>Breaking Benjamin</span> </li>
+                    <li> 17:00 | <span>30 Seconds To Mars</span> </li>
+                </ul>
             </div>
+            <div class="ecenario__edm edm bg-verde">
+                <p class="ecenario__nombre">Ecenario EDM</p>
+                    <ul class= 'ecenario__calendario'>
+                    <li> 24:00 | <span>Deadmau5</span> </li>
+                    <li> 22:00 | <span>Tiësto</span> </li>
+                    <li> 20:00 | <span>Dash Berlin</span> </li>
+                    <li> 19:00 | <span>Hardwell</span> </li>
+                    <li> 18:00 | <span>Fedde Legrand</span> </li>
+                    <li> 17:00 | <span>Audien</span> </li>
+                </ul>
+            </div>
+        </div>
 
-        <p class="lineup__dia">Sabado 22</p>
-        <div class="lineup__calendario">
-            <p>Ecenario Rock</p>
-                <ul>
+            <p class="lineup__dia">Sabado 22</p> 
+
+        <div class="lineup__ecenarios contenedor">
+            <div class="ecenario__rock rock bg-verde">
+                <p class="ecenario__nombre">Ecenario Rock</p>
+                <ul class= 'ecenario__calendario'>
                     <li> 24:00 | <span>Red Hot Chili Peppers</span> </li>
                     <li> 22:00 | <span>The Killers</span> </li>
                     <li> 20:00 | <span>Deftones</span> </li>
@@ -91,9 +97,11 @@
                     <li> 18:00 | <span>Papa Roach</span> </li>
                     <li> 17:00 | <span>Lamb Of God</span> </li>
                 </ul>
-
-            <p>Ecenario EDM</p>
-                <ul>
+            </div>
+                    
+            <div class="ecenario_edm edm bg-amarillo">
+                <p class="ecenario__nombre">Ecenario EDM</p>
+                <ul class= 'ecenario__calendario'>
                     <li> 24:00 | <span>Paul Van Dyk</span> </li>
                     <li> 22:00 | <span>Armin Van Buuren</span> </li>
                     <li> 20:00 | <span>Above & Beyond</span> </li>
@@ -101,8 +109,50 @@
                     <li> 18:00 | <span>Ferry Corsten</span> </li>
                     <li> 17:00 | <span>Vini Vici</span> </li>
                 </ul>
+            </div>
         </div>
     </section>
+
+    <section class="galeria contenedor">
+        <h3>Galería</h3>
+
+        <ul class="galeria__imagenes"></ul>
+
+    </section>
     
+    <section class="boletos">
+
+        <h3 class="boletos__titulo">Boletos</h3>
+        <div class="contenido__boletos contenedor">
+           
+            <div class="plan">
+                <p>Pase 1 día</p>
+                <ul>
+                    <li>Incluye</li>
+                    <li>Acceso a todos los escenarios</li>
+                    <li>Comida y bebida</li>
+                    <li>$100</li>
+                </ul>
+            </div>
+
+            <div  class="plan">
+                <p>Pase 2 días</p>
+                <ul>
+                    <li>Incluye</li>
+                    <li>Acceso a todos los escenarios</li>
+                    <li>Comida y bebida</li>
+                    <li>Camisa del evento</li>
+                    <li>Acceso VIP</li>
+                    <li>$180</li>
+                </ul>
+            </div>
+        
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>Rock & EDM Festival. Todos los derechos reservados.</p>
+    </footer>
+    <script src="build/js/bundle.js"></script>
 </body>
 </html>

@@ -1,0 +1,68 @@
+.lineup{
+    background-color: $rosa;
+    padding: $separacion 0;
+    h3,p{
+        text-align: center;
+        color: $blanco;
+    }
+    .lineup__dia{
+        text-transform: uppercase;
+        margin: $separacion 0;
+    }
+}
+
+.lineup__ecenarios{
+     @include tablet{
+         @include grid (2, $separacion);
+         gap: $separacion;
+     }
+
+     .ecenario__nombre{
+         color: $negro;
+         font-size: 2rem;
+         font-weight: $delgada;
+
+         &:after{
+             content: '';
+             width: 20rem;
+             height: 10rem;
+             display: block;
+            margin: 2rem auto 0 auto;
+            background-size: 15rem;
+            background-repeat: no-repeat;
+            background-position: center center;
+         }
+     }
+}
+
+.edm .ecenario__nombre{
+    &:after{
+        background-image: url(../img/icono_edm.png);
+    }
+}
+
+.rock .ecenario__nombre{
+    &:after{
+        background-image: url(../img/icono_rock.png);
+    }
+}
+
+.ecenario__calendario{
+    padding: 0;
+    list-style: none;
+
+    li{
+        font-weight: $bold;
+        margin-left: 2rem;
+        padding: $separacion / 2 0;
+    }
+    span{
+        font-weight: $delgada;
+    }
+}
+.bg-verde .ecenario__calendario li:nth-child(odd){
+        background-color: darken($verde, 10); 
+}
+.bg-amarillo .ecenario__calendario li:nth-child(odd){
+    background-color: darken($amarillo, 10); 
+}
