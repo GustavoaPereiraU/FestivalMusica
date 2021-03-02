@@ -365,6 +365,10 @@ h3 {
     @media (min-width: 768px) {
       .header h1 {
         margin-bottom: 0; } }
+  .header.fijo {
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 .3rem .4rem; }
 
 .navegacion-principal {
   display: flex;
@@ -566,7 +570,8 @@ video {
     background-color: #752F97;
     color: #FFF;
     text-align: center;
-    font-size: 3rem; }
+    font-size: 3rem;
+    border: none; }
 
 .footer {
   text-align: center;
